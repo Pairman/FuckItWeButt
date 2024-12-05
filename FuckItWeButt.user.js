@@ -2,7 +2,7 @@
 // @name         FuckItWeButt
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Unhide "Download" & "Save" Buttons on Chaoxing Clouddisk Share Pages for "suspicious" filetypes.
+// @description  Unhide "Download" & "Save" buttons on Chaoxing clouddisk share pages for "suspicious" filetypes.
 // @author       Pairman <pairmanxlr@gmail.com>
 // @match        https://pan-yz.chaoxing.com/external/m/file/*
 // @match        https://pan-yz.cldisk.com/external/m/file/*
