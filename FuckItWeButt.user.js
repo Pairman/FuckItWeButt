@@ -14,6 +14,9 @@
 	'use strict';
 
 	function fuckItWeButt() {
+		if ($('#download').length && $('#saveyp').length)
+			return;
+
 		$.ajax({
 			url: `https://noteyd.chaoxing.com/screen/note_note/files/status/${fileinfo.objectId}`,
 			success: function(d) {
