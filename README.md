@@ -1,2 +1,2 @@
 # FuckItWeButt
-Unhide "Download" &amp; "Save" Buttons on Chaoxing Clouddisk Share Pages.
+Tampermonkey addon to unhide "Download" & "Save" buttons on Chaoxing clouddisk share pages for "suspicious" filetypes.
