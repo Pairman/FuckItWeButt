@@ -13,10 +13,12 @@
 (function() {
 	'use strict';
 
-	$(document).ready(() => {
+	function fuckItWeButt() {
 		$.ajax({
 			url: `https://noteyd.chaoxing.com/screen/note_note/files/status/${fileinfo.objectId}`,
-			success: d => fileinfo.download = d.download
+			success: function(d) {
+				fileinfo.download = d.download;
+			}
 		});
 
 		$('#reportFileBtn').before(
@@ -24,5 +26,10 @@
 			'<a id="saveyp"><span class="YpBtn yellowBg">保存到云盘</span></a>'
 		);
 		$('<script>').text($('body > script:nth-child(5)').text()).appendTo('body');
-	});
+	}
+
+	if (document.readyState == "complete")
+		fuckItWeButt();
+	else
+		window.addEventListener('load', fuckItWeButt);
 })();
