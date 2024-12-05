@@ -28,7 +28,7 @@
 		$('<script>').text($('body > script:nth-child(5)').text()).appendTo('body');
 	}
 
-	if (document.readyState == "complete")
+	if (document.readyState == 'complete')
 		fuckItWeButt();
 	else
 		window.addEventListener('load', fuckItWeButt);
